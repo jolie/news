@@ -8,6 +8,7 @@ twitter_username: jolielang
 github_username: jolie
 
 markdown: kramdown
+highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
