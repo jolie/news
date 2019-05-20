@@ -1,0 +1,15 @@
+---
+layout: post
+title: Jolie 1.6.4 released
+date: '2018-08-07T09:10:00.003+02:00'
+author: fm
+tags:
+- release
+- microservices
+- jolie
+modified_time: '2018-08-07T09:10:59.744+02:00'
+blogger_id: tag:blogger.com,1999:blog-3824614534367079729.post-3191937546327638105
+blogger_orig_url: https://jolie-lang.blogspot.com/2018/08/jolie-164-released.html
+---
+
+Jolie 1.6.4 has been released! Go get it from our&nbsp;<a href="http://jolie-lang.org/downloads.html">download page</a>.<br /><br /><span style="font-size: x-large;">Changelog (from Jolie 1.6.3)</span><br /><ul><li>New feature: redirection in HTTP urls, e.g., http://yourjolieserver/!/SubService!/operation</li><li>New feature: the soaps protocol (SOAP over HTTPS).</li><li>New feature: interface extensions now support type links at the root level.</li><li>New feature: getenv@Runtime gets the value of environment variables.</li><li>New feature: listEntries@ZipUtils. </li><li>Various improvements to XML conversion APIs and tools. </li><li>XML conversion with .indent = true now adds tabbing too.</li><li>Start-up performance improvements (by avoiding filling stack traces when a path resolution fails for an include path).</li><li>Complete refactoring of Scheduler (standard library). </li><li>Fix: null pointer exception in checking type equalities when one type does not have subnodes. </li><li>Fix: SOAP now replies correctly to OneWay invocations.</li><li>Fix: HTTP now correctly returns status 500 for internal errors. </li><li>The Web Service unit test does not use a remote web service anymore.</li><li>Various code restylings to take advantage of Java 8. </li></ul>

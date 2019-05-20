@@ -1,0 +1,14 @@
+---
+layout: post
+title: Jolie 1.1.2 released
+date: '2015-02-18T16:18:00.003+01:00'
+author: fm
+tags:
+- release
+- jolie
+modified_time: '2015-02-18T16:18:41.641+01:00'
+blogger_id: tag:blogger.com,1999:blog-3824614534367079729.post-7339339725948474513
+blogger_orig_url: https://jolie-lang.blogspot.com/2015/02/jolie-112-released.html
+---
+
+Jolie 1.1.2 has been&nbsp;<a href="http://www.jolie-lang.org/downloads.html">released</a>, with lots of stability and performance improvements! Get it while it's hot!<br /><br /><h2>Changelog</h2><ul><li>Fixed character encoding handling on all HTTP-based extensions (http, https, soap, xmlrpc, jsonrpc).</li><li>Introduced HTTP compression on all HTTP-based  extensions.</li><li>Introduced HTTP error messages for clients on all HTTP-based extensions.</li><li>Plenty of other bugfixes and internal improvements in all HTTP-based extensions.</li><li>Enhanced documentation for the HTTP extensions, especially documented all possible parameters for the http extension under http.iol.</li><li>Major JSON parsing improvements: introduction of a shared library named "jolie-js" which shares the JSON parser between the HTTP extensions and the Jolie "JsonUtils" module.</li><li>Bugfixes for localsockets (UNIX domain sockets).</li><li>Bugfixes in the launcher script for Windows.</li><li>Fixed a bug on concurrent access to variables in foreach loops.</li><li>Internal improvements to the networking code of the interpreter.</li><li>The compression feature from the sodep protocol has been removed. It will be reintroduced in another protocol in the future.</li><li>Improvements in the transmission of faults using JSON.</li><li>Fixes resolution of type links in interfaces used in courier inputs.</li><li>Fixed resource leak when reading .ini files in IniUtils.</li><li>Fixed a potential internal deadlock when handling persistent input channels.</li></ul>

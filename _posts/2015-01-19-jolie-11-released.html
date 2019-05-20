@@ -1,0 +1,14 @@
+---
+layout: post
+title: Jolie 1.1 released
+date: '2015-01-19T12:02:00.001+01:00'
+author: fm
+tags:
+- release
+- jolie
+modified_time: '2015-01-19T12:02:32.246+01:00'
+blogger_id: tag:blogger.com,1999:blog-3824614534367079729.post-4733722954721694802
+blogger_orig_url: https://jolie-lang.blogspot.com/2015/01/jolie-11-released.html
+---
+
+Jolie 1.1 has been released!<br /><br />This release is the result of more than 500 commits, which contain:<br /><br /><ul><li>almost 30 new APIs in the standard library;</li><li>more than a hundred bugfixes;</li><li>almost a hundred improvements to the interpreter and its libraries.</li></ul><br /><h2>Changelog of major changes</h2><h3>New features</h3><ul><li>Interfaces can now be referenced as constants in courier processes.</li><li>Programs can automatically access the subdirectories lib and include from the directory they are executed in, respectively for libraries and include files.</li><li>It is now possible to develop "abstract locations" for input ports, i.e., Jolie extensions that can change at runtime the location of an input port, for example by fetching it from a registry or a configuration file.</li><li>Tracer. Jolie now supports a "--trace" option that prints all communications on screen (useful for debugging).</li></ul><h3>Implementation improvements</h3><ul><li>Improved message handling in concurrent communications.</li><li>Faster shutdown procedure for the interpreter.</li><li>Better handling of memory deallocation when an embedded service terminates.</li><li>Improved handling of persistent channels, with a new algorithm for managing timeouts of cached channels.</li><li>Support for Java 8.</li><li>Better Windows support (path resolution and JAP files).</li></ul><h3>New APIs</h3><ul><li>Console management.</li><li>Database management. Also, support for HSQLDB and DB2 has been added.</li><li>File management.</li><li>JSON support.</li><li>Queue-like data structures.</li><li>Runtime management of the interpreter.</li><li>Semaphores.</li><li>Shell command execution.</li><li>String manipulation.</li><li>XML handling.</li></ul><h3>Improvements to protocols</h3><ul><li>http: default operations can now be assigned to specific HTTP methods (GET, PUT, POST, DELETE, HEAD).</li><li>http: improved message handling, improved JSON support.</li><li>json-rpc: better support, general improvements.</li><li>ssl: bug fixes (applies to all protocols using ssl, e.g., https).</li><li>xml-rpc: better support, general improvements.</li></ul><h3>Improvements to tools</h3><ul><li>joliedoc: types can now be documented.</li><li>joliedoc: bug fixes.</li><li>jolie2wsdl: bug fixes.</li><li>wsdl2jolie: bug fixes.</li></ul>

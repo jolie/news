@@ -1,0 +1,14 @@
+---
+layout: post
+title: Jolie 1.6.0 beta1 released
+date: '2016-05-13T18:54:00.000+02:00'
+author: fm
+tags:
+- release
+- jolie
+modified_time: '2016-05-13T18:54:12.040+02:00'
+blogger_id: tag:blogger.com,1999:blog-3824614534367079729.post-6655755997346573852
+blogger_orig_url: https://jolie-lang.blogspot.com/2016/05/jolie-160-beta1-released.html
+---
+
+In honour of the Jolie repository reaching a count of 3000 commits, Jolie 1.6.0 beta1 has been released!<br /><br />This is a beta release, meant for early adopters and testers. Do not use it in production! For this reason, the download link is reported only here and not in our main download page.<br /><br />Download link: <a href="http://www.jolie-lang.org/files/releases/jolie-1.6.0_beta1.jar">http://www.jolie-lang.org/files/releases/jolie-1.6.0_beta1.jar</a><br /><br /><b>Important:</b> This is the first release of Jolie that requires <b>Java 8</b>. A Java 6 compatible branch is still available on GitHub, to support contributors with the possibility of backporting important bug fixes.<br /><br /><br /><span style="font-size: x-large;">Changelog from Jolie 1.6.0</span><br /><br /><ul><li>3000th commit reached!</li><li>Lots of improvements to the handling of concurrent data structures, using lambdas.</li><li>Codebase ported to make use of the new features and libraries found in Java 8.</li><li>Various performance improvements: objects for tracing are not allocated if --trace is not in use, type checking runs faster thanks to safe sharing of string builders, improved management of sockets, faster evaluation of logical conditions by using lambda-based implementations.</li><li>New asynchronous implementation of AbstractCommChannel for simpler handling of solicit-responses.</li><li>Improved performance of the interpreter test suite.</li><li>Support for type choices (also known as type sums)! This merits its own blog post, to be written.</li><li>Numerous bug fixes and minor improvements.</li><li>Fix a race condition on the usage of internal links.</li></ul>

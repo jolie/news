@@ -1,0 +1,14 @@
+---
+layout: post
+title: Jolie 1.3 released
+date: '2015-04-30T12:53:00.000+02:00'
+author: fm
+tags:
+- release
+- jolie
+modified_time: '2015-04-30T12:53:34.240+02:00'
+blogger_id: tag:blogger.com,1999:blog-3824614534367079729.post-4473227461380017996
+blogger_orig_url: https://jolie-lang.blogspot.com/2015/04/jolie-13-released.html
+---
+
+Jolie 1.3 has been released. This is a stabilisation release: much effort has been put into improving the implementation of the interpreter and its extensions, and in extending our test suite for backwards compatibility.<br /><br /><span style="font-size: x-large;">Changelog</span><br /><br /><ul><li>Empty bodies for Request-Response inputs have been made optional.</li><li>Performance improvements to communications with embedded Javascript services.</li><li>gwt-dev.jar has been removed, as it is no longer needed (this reduced the size of a Jolie installation to a third).</li><li>Fixed a bug that prevented using HTTPs with the default settings (SSLv3 is no longer the default).</li><li>Improvements to the jolie2java tool, which now correctly compiles access methods to root values.</li><li>Many fixes to how charset encodings are handled, especially with respect to UTF-8.</li><li>Bugfix: invoke@Reflection did not use runtime type checking correctly.</li><li>Internal refactoring of HTTP and HTTP-based protocols to share the basic underlying logic, e.g., error handling.</li><li>Fetching WSDL documents no longer prints debug messages on screen.</li><li>Some API cleanups in the standard library (e.g., NetworkService).</li><li>Improvements to handling GWT messages.</li></ul>
