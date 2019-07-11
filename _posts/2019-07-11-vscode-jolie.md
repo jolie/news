@@ -18,10 +18,10 @@ The extension is pretty recent, so expect a lot of fixes and new features in the
 
 - Completion:
 
-![Completion](/assets/vscode-jolie/feature-completion.gif)
+![Completion]({{ site.url }}/assets/vscode-jolie/feature-completion.gif)
 
 - Hover:
 
-![Hover](/assets/vscode-jolie/feature-hover.gif)
+![Hover]({{ site.url }}/assets/vscode-jolie/feature-hover.gif)
 
 Enjoy!
