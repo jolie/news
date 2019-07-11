@@ -2,7 +2,7 @@ title: Jolie Programming Language News
 email: webmaster@jolie-lang.org
 description: >- # this means to ignore newlines until "baseurl:"
   News from the Jolie programming language team.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/news" # the subpath of your site, e.g. /blog
 url: "https://jolie.github.io/"
 twitter_username: jolielang
 github_username: jolie
