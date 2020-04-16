@@ -48,6 +48,7 @@ Jolie is now compatible with Java 11 and beyond without requiring special config
 
 ## Other changes
 
+- The HTTP protocol now supports OPTIONS requests and CORS.
 - Infinite alias loops are now detected at runtime and throw a fault.
 - Secure protocols (like HTTPS) now use TLSv1.2 by default.
 - A lot of small fixes and code optimisations.
