@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Fabrizio Montesi
-title: Jolie 1.10.0 released
+title: Jolie 1.10.1 released
 tags:
 - jolie
 - microservices
